@@ -1,0 +1,30 @@
+.flexBar {
+  display: flex;
+  position: relative;
+  /* left: 10px; */
+  top: 10px;
+  align-items: center;
+}
+.headerElem {
+  margin-right: 30px;
+  letter-spacing: 3px;
+  color: #999999;
+  transition: 0.5s color ease-in-out;
+}
+.headerElem:last-of-type {
+  margin-right: 50px;
+}
+.headerElem:hover {
+  color: black;
+  transition: 0.5s color ease-in-out;
+}
+.icon {
+  margin-right: auto;
+}
+.iconImg {
+  transition: 0.25s ease-in-out;
+}
+.iconImg:hover {
+  padding: 5px;
+  transition: 0.25s ease-in-out;
+}

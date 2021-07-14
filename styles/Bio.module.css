@@ -1,0 +1,13 @@
+.wrapper {
+  text-align: center;
+}
+.container {
+  display: inline-block;
+}
+.title {
+  text-align: center;
+}
+
+.article {
+  padding: 0 20vw;
+}

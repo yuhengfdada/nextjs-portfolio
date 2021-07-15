@@ -1,13 +1,37 @@
 .wrapper {
-  text-align: center;
+  background: url("../public/img-home2.png") center center/cover no-repeat;
+  margin-top: 3vh;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  transition: 0.25s ease-in;
+}
+.wrapper:hover {
+  background: url("../public/img-home3.png") center center/cover no-repeat;
+  transition: 0.25s ease-out;
 }
 .container {
   display: inline-block;
 }
+.container:hover .title {
+  color: rgba(255, 255, 255, 0.859);
+  cursor: pointer;
+  /* transition: 0.1s ease-in; */
+}
 .title {
+  margin: 0;
   text-align: center;
+  color: white;
+  font-size: 100px;
+  /* transition: 0.1s ease-in; */
 }
 
 .article {
-  padding: 0 20vw;
+  font-size: 25px;
+  padding: 3vh 20vw;
 }

@@ -8,7 +8,7 @@ export default function Header() {
     <Layout>
       <div className={style.flexBar}>
         <div className={style.icon}>
-          <Link href="/">
+          <Link href="/Bio">
             <a>
               <img
                 className={style.iconImg}
